@@ -8,6 +8,7 @@ public class SampleTest {
 		SampleTest s = new SampleTest();
 		// just the comment
 		//just the comment
+		//2nd comment
 		
 		//one more comment
 		System.out.println(System.getProperty("user.dir"));
