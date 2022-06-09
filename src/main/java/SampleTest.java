@@ -8,6 +8,8 @@ public class SampleTest {
 		SampleTest s = new SampleTest();
 		// just the comment
 		//just the comment
+		
+		//one more comment
 		System.out.println(System.getProperty("user.dir"));
 		try {
 			System.out.println(s.basePath);
