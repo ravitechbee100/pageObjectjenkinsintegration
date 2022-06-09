@@ -6,7 +6,7 @@ public class SampleTest {
 	public static void main(String[] args) {
 		
 		SampleTest s = new SampleTest();
-		
+		// just the comment
 		System.out.println(System.getProperty("user.dir"));
 		try {
 			System.out.println(s.basePath);
