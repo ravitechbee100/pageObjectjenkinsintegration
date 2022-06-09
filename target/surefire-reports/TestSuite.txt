@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 9.61 s <<< FAILURE! - in TestSuite
+testDropDownValues(SeleniumFrameworkMay2022.pageObject.HomePageTest)  Time elapsed: 4.11 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-TLBTJMO', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e818443a8ed96e95ad002b0ff87efce, clickElement {id=219d258c-93d1-4f0f-b6b3-941905368ee1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ravi_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62130}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62130/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1e818443a8ed96e95ad002b0ff87efce)] -> id: gh-btn]
+Session ID: 1e818443a8ed96e95ad002b0ff87efce
+	at SeleniumFrameworkMay2022.pageObject.HomePageTest.testDropDownValues(HomePageTest.java:46)
+
+testHomepage(SeleniumFrameworkMay2022.pageObject.HomePageTest)  Time elapsed: 0.004 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+tab crashed
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'DESKTOP-TLBTJMO', ip: '192.168.1.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e818443a8ed96e95ad002b0ff87efce, findElement {using=xpath, value=//*[contains(text(),'Sign in')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ravi_\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62130}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62130/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e818443a8ed96e95ad002b0ff87efce
+	at SeleniumFrameworkMay2022.pageObject.HomePageTest.testHomepage(HomePageTest.java:27)
+

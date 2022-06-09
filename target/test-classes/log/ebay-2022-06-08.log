@@ -1,0 +1,6 @@
+21:24:29.262 [main] INFO  com.qa.selenium.pages.EbayHomePage - Get text from search button
+21:24:29.476 [main] INFO  com.qa.selenium.pages.EbayHomePage - Enter the search Item
+21:24:29.674 [main] INFO  com.qa.selenium.pages.EbayHomePage - Enter the search Item
+21:24:29.679 [main] INFO  com.qa.selenium.pages.EbayHomePage - click on SignIn link
+21:24:31.391 [main] INFO  com.qa.selenium.pages.EbayHomePage - click on ebayLogo
+21:24:32.585 [main] INFO  com.qa.selenium.pages.EbayHomePage - click on registration Link
